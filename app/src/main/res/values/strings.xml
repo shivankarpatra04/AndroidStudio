@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="Coll1">Course</string>
+    <string name="Coll2">Year</string>
+    <string name="Coll3">Institute</string>
+    <string name="Coll4">Result</string>
+
+
+    <string name="RowMCA">Master\'s in Computer Application</string>
+    <string name="Row024">2022-2024</string>
+    <string name="JHU1">Jamia Hamdard University</string>
+    <string name="Rowblank">-</string>
+
+    <string name="RowBCA">Bachelor\'s in Computer Application</string>
+    <string name="Row022">2019-2022</string>
+    <string name="JHU2">Jamia Hamdard University</string>
+    <string name="Row75">75%</string>
+
+    <string name="RowBMV">12th Standard</string>
+    <string name="Row19">2018-2019</string>
+    <string name="BMVB">Balvantray Mehta Vidya Bhawan (A.S.M.A) </string>
+    <string name="Row55">55%</string>
+
+
+    <string name="prj1">Created Book store ( using PHP and DBMS)</string>
+    <string name="prj1cn">Designed and implemented a dynamic online book store using PHP and DBMS, enabling customers to browse, search, order, and securely process payments, resulting in a streamlined and user-friendly shopping experience.</string>
+    <string name="prj2">Created Portfolio Website ( using HTML,CSS,Java Script )</string>
+    <string name="prj2cn">Crafted an engaging portfolio website utilizing HTML, CSS, and JavaScript, showcasing my skills, projects, and achievements, effectively highlighting my expertise and providing an immersive experience for visitors.</string>
+    <string name="prj3">Android Portfolio Application ( using Kotlin )</string>
+    <string name="prj3cn"> independently crafted a customized Android portfolio application using Kotlin within Android Studio. This app serves as a personal showcase, highlighting my projects and abilities for self-reference and doesn\'t intend for professional or client use.</string>
+
+    
+    <string name="ProgramingSkills">• JAVA\n• C++\n• KOTLIN </string>
+    <string name="ReleventCoursework">• Data Structures and Algorithms\n• Object-Oriented Programming\n• Mobile App Development\n• Software Engineering  </string>
+    <string name="TechnicalSkills">• Strong problem-solving skill\n• Object-oriented design and programming\n• GUI design and development\n• Version control systems (e.g., Git)  </string>
+    <string name="DevelopmentTools">• Android Studio\n• Intellij idea\n• VS Code</string>
+
+    <string name="liveLaw">•<b> Position</b> -  Assistant Graphic Designer and Video Editor\n\n• <b>Responsibility</b> - Created eye-catching and engaging promotional materials for the Live Law YouTube channel using advanced graphic design skills.\n\n• <b>Achievement</b> - Achieved a 20k subscriber count for the Live Law YouTube channel within a month of joining. </string>
+    <string name="igBuildtech">•<b> Position</b> -  Digital Marketer and Social Media Influencer\n\n• <b>Responsibility</b> - Created engaging content to drive brand awareness, customer acquisition,and measurable business results using data-driven digital marketing strategies.\n\n• <b>Achievement</b> - Generated 100+ leads in a day for IGBuildtech, minimizing costs through targeted marketing, compelling ads, and effective lead generation. </string>
+    <string name="jumbleWords">•<b> Position</b> -  Computer Operator ( Managing Amazon Seller Account )\n\n• <b>Responsibility</b> - Improved Amazon sales and metrics by showcasing e-commerce expertise.</string>
+
+</resources>

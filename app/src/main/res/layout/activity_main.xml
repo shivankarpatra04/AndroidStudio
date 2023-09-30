@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradiant_list"
+    android:id="@+id/mainlayout"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    app:cardCornerRadius="1000dp"
+
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shivankar"
+
+        />
+
+</androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Shivankar Patra" />
+
+
+    <TextView
+        android:id="@+id/tvDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Android Developer" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Skills" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Education" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnProject"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Projects" />
+
+        <Button
+            android:id="@+id/btnExperience"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Experience" />
+    </LinearLayout>
+
+</LinearLayout>

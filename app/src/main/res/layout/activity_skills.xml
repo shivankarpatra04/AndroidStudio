@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradiant_list"
+    android:id="@+id/skillsLayout">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:gravity="center">
+        <TableRow
+            android:background="@color/purple">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Programing Skills"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#D0B1DF"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ProgramingSkills"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity=""
+                android:paddingBottom="10dp"
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/purple">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Relevant Coursework"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal" />
+
+        </TableRow>
+        <TableRow
+            android:background="#D0B1DF"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ReleventCoursework"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity=""
+
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/purple">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Technical Skills"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal" />
+
+        </TableRow>
+        <TableRow
+            android:background="#D0B1DF"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/TechnicalSkills"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity=""
+
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/purple">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Development Tools"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal" />
+
+        </TableRow>
+        <TableRow
+            android:background="#D0B1DF"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/DevelopmentTools"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity=""
+
+                ></TextView>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradiant_list"
+    android:id="@+id/eduLayout"
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:background="@color/purple">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Coll1"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Coll2"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Coll3"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Coll4"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="#D0B1DF">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/RowMCA"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Row024"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                ></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/JHU1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                ></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Rowblank"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#D0B1DF">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/RowBCA"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                ></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Row022"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/JHU2"
+                android:textColor="@color/black"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Row75"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#D0B1DF">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/RowBMV"
+                android:textColor="@color/black"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/Row19"
+                android:textColor="@color/black"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/BMVB"
+                android:textColor="@color/black"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/Row55"
+                android:textColor="@color/black"
+                android:textSize="12sp"></TextView>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
